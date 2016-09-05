@@ -35,7 +35,7 @@ cacheSolve <- function(x, ...) {
     inv <- x$ginv()
     ## if already in cache - returns cached information
     if(!is.null(inv)) {
-        message("getting cached data.")
+        message("Now showing Cached Information")
         return(inv)
     }
     data <- x$get()
